@@ -11,6 +11,7 @@ function App() {
           <Route path="/path2" component={Compo2} />
           <Route path="/" exact component={Compo3} /> */}
         </Switch>
+        
       </Layout>
     </div>
   );
