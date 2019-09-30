@@ -1,3 +1,14 @@
+
+After cloning this repository, make sure to run
+
+```npm install```
+
+To install the dependencies. 
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
