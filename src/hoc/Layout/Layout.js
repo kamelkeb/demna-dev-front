@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './Layout.module.css';
 
-import TopBar from '../../TopBar/TopBar';
+import TopBar from 'src/components/Navigation/TopBar/TopBar';
 
 class Layout extends React.Component {
     render() {
