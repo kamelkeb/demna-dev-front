@@ -7,6 +7,8 @@ import Acceuil from 'src/containers/Accueil/Accueil';
 
 
 
+export const language="fr"
+
 function App() {
   return (
     <div className="App">
