@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import * as client_routes from './routes/client_routes';
 
-import Acceuil from 'src/containers/Accueil/Accueil';
+import Accueil from 'src/containers/Accueil/Accueil';
 
 
 
@@ -15,7 +15,7 @@ function App() {
       <Layout>
         <Switch> 
           
-          <Route path={client_routes.pathHome} exact component={Acceuil} />
+          <Route path={client_routes.pathHome} exact component={Accueil} />
         </Switch>
         
       </Layout>
