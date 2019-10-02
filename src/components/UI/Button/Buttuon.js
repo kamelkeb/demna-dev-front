@@ -1,11 +1,15 @@
 import React from 'react';
-import classes from './Field.module.css'
+import classes from './Buttuon.module.css'
+
+import Button from 'semantic-ui-react'
 
 
 const Buttuon = (props) => {
+    const icone = props.depot ? <Icon name='plus square outline' /> : undefined
+    const aspect = props.depot ? "black" : undefined
     return (
-            <p>Buttuon</p>
-            )
+        <Button color={aspect} >{icone}{props.children}</Button>
+    )
 }
 
 
