@@ -1,3 +1,7 @@
 export const LANGUAGE="en"
-
 export const ALERTS_BLOCK_LABEL="Alerts"
+export const CONNEXION_BLOCK_LABEL="Join Demna"
+export const EMAIL_FIELD_PLACE_HOLDER ="email"
+export const PASSWORD_FIELD_PLACE_HOLDER ="password"
+export const LOGIN_BUTTON_NAME ="Log in"
+export const SIGN_UP_BUTTON_NAME ="Sign up"

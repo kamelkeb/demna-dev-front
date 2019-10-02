@@ -4,12 +4,21 @@ import classes from './Acceuil.module.css'
 import {connect} from 'react-redux'
 
 import AlertesBlock from '../../components/AlertesBlock/AlertesBlock'
+import ConnexionBlock from '../../components/ConnexionBlock/ConnexionBlock'
 
 class Accueil extends React.Component {
     render() {
-        return (
+        return (<>
             
-                <AlertesBlock alertes={this.props.alertes} labelValue={this.props.labelValue}/>
+                <AlertesBlock alertes={this.props.alertes} labelValue={this.props.alertesBlockLabelValue}/>
+                <ConnexionBlock labelValue={this.props.connexionBlockLabelValue}
+                    emailFieldPlaceHolder={this.props.emailFieldPlaceHolder}
+                    passwordFieldPlaceHolder={this.props.passwordFieldPlaceHolder}
+                    loginButtonName={this.props.loginButtonName}
+                    signUpButtonName={this.props.signUpButtonName}
+                 />
+
+                </>
             
         );
     }
@@ -18,7 +27,12 @@ class Accueil extends React.Component {
 const mapStateToProps = state => {
     return {
         alertes: state.alertes.alertes,
-        labelValue: state.language.text.ALERTS_BLOCK_LABEL
+        alertesBlockLabelValue: state.language.text.ALERTS_BLOCK_LABEL,
+        connexionBlockLabelValue: state.language.text.CONNEXION_BLOCK_LABEL,
+        emailFieldPlaceHolder: state.language.text.EMAIL_FIELD_PLACE_HOLDER,
+        passwordFieldPlaceHolder: state.language.text.PASSWORD_FIELD_PLACE_HOLDER,
+        loginButtonName: state.language.text.LOGIN_BUTTON_NAME,
+        signUpButtonName: state.language.text.SIGN_UP_BUTTON_NAME
     }
 }
 

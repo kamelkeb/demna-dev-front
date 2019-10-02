@@ -1,3 +1,7 @@
 export const LANGUAGE="ar"
-
 export const ALERTS_BLOCK_LABEL="إستعجالات"
+export const CONNEXION_BLOCK_LABEL="انضم إلى دمنا"
+export const EMAIL_FIELD_PLACE_HOLDER ="البريد الإلكتروني"
+export const PASSWORD_FIELD_PLACE_HOLDER ="كلمة السر"
+export const LOGIN_BUTTON_NAME ="تسجيل الدخول"
+export const SIGN_UP_BUTTON_NAME ="إنضم الآن"
