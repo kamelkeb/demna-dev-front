@@ -1,8 +1,7 @@
-import React from 'react';
+import React from 'react'
+import classes from './Layout.module.css'
 
-import classes from './Layout.module.css';
-
-import TopBar from 'src/components/Navigation/TopBar/TopBar';
+import TopBar from '../../components/Navigation/TopBar/TopBar'
 
 class Layout extends React.Component {
     render() {

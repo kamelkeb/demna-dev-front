@@ -1,6 +1,5 @@
-import React from 'react';
-
-import { Icon } from 'semantic-ui-react';
+import React from 'react'
+import { Icon } from 'semantic-ui-react'
 
 const Menu = () => {
     return (
@@ -10,4 +9,4 @@ const Menu = () => {
     );
 }
 
-export default Menu;
+export default Menu

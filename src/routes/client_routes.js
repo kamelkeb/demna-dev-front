@@ -23,7 +23,7 @@ export const idPathVolontariatAppel = idPath + pathVolontariatAppel;
 export const idPathApropos = idPath + pathApropos;
 export const idPathContact = idPath + pathContact;
 
-export const idPathAnnulationParticipation = idPath + pathAnnulationParticipation;
+// export const idPathAnnulationParticipation = idPath + pathAnnulationParticipation;
 export const idPathDepotAppel = idPath + pathDepotAppel;
 export const idPathGestionNotifications = idPath + pathGestionNotifications;
 export const idPathAjoutModifNotification = idPath + pathAjoutModifNotification;

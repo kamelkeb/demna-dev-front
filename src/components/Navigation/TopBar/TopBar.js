@@ -1,10 +1,9 @@
-import React from 'react';
+import React from 'react'
+import classes from './TopBar.module.css'
 
-import classes from './TopBar.module.css';
-
-import Menu from 'src/components/Navigation/Menu/Menu';
-import Logo from 'src/components/Logo/Logo';
-import UserAccount from 'src/components/UserAccount/UserAccount';
+import Menu from '../Menu/Menu'
+import Logo from '../../Logo/Logo'
+import UserAccount from '../../UserAccount/UserAccount'
 
 const TopBar = () => {
     return (

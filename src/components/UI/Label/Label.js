@@ -7,7 +7,7 @@ import classes from './Label.module.css';
 const Label = (props) => {
 
     return (
-            <div>{props.value}</div>
+            <div className="Label">{props.value}</div>
 
             )
 }

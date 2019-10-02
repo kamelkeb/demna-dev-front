@@ -1,10 +1,15 @@
-mport React from 'react';
-import classes from './Field.module.css'
+import React from 'react';
+import classes from './Carousel.module.css'
+
 
 
 const Carousel = (props) => {
-    return props.items.map(i => <span id={i.id}> {i.content} </span>)
+
+    
+        return props.items.map(i => <span id={i.idAppel}> {i.contenu} </span>)
+    
 }
+
 
 
 export default Carousel

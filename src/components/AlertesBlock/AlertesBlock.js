@@ -1,20 +1,24 @@
 import React from 'react';
 
+
 import classes from './AlertesBlock.module.css';
+import Label from '../UI/Label/Label'
+import Carousel from '../UI/Carousel/Carousel.js'
 
-import Label from 'src/components/UI/Label/Label'
-
-import text from 'src/language_picker'
 
 
 const AlertesBlock = (props) => {
 
-    return (
-            <Label value={text.ALERTS_BLOCK_LABEL}/>
-            <Carousel items={props.items}/>
-
+    return (<>
+            <Label value={props.labelValue}/>
+            <Carousel items={props.alertes}/>
+            </>
             )
 }
+
+
+
+
 
 
 export default AlertesBlock
