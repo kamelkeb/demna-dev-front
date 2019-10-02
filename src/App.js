@@ -5,7 +5,7 @@ import { Route, Switch } from 'react-router-dom'
 import * as client_routes from './routes/client_routes'
 
 // Composants internes à l'app
-import Acceuil from './containers/Accueil/Accueil'
+import Accueil from './containers/Accueil/Accueil'
 import Layout from './hoc/Layout/Layout'
 
 
@@ -15,7 +15,7 @@ function App() {
       <Layout>
         <Switch> 
           
-          <Route path={client_routes.pathHome} exact component={Acceuil} />
+          <Route path={client_routes.pathHome} exact component={Accueil} />
         </Switch>
         
       </Layout>

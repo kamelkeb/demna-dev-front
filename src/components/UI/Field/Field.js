@@ -5,12 +5,9 @@ import { Input } from 'semantic-ui-react'
 
 const Field = (props) => {
     // Gestion du caractere obligatoire (ou non) de la saisie du champ
-    let labelValue = undefined;
-    let labelPositionValue = undefined;
-    if (props.mandatory) {
-        labelValue = { icon: 'asterisk' };
-        labelPositionValue = 'right corner';
-    }
+    const labelValue = props.mandatory?{ icon: 'asterisk' }:undefined
+    const labelPositionValue = props.mandatory?'right corner':undefined
+    
     return (
         <Input
             label={labelValue}
