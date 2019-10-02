@@ -1,0 +1,4 @@
+.AlertesBlock {
+    display: flex;
+    flex-direction: row;
+}

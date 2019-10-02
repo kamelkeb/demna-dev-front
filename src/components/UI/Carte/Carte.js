@@ -6,7 +6,7 @@ import { Card, Label } from 'semantic-ui-react';
 
 const Carte = (props) => {
     // Si urgence de type "alerte", label rouge, sinon (type "info") label bleu
-    const color_alerte = props.alerte == "urgence" ? "red" : "blue"
+    const color_alerte = (props.alerte == "urgence") ? "red" : "green"
     const label = props.alerte ?
                     <Label as='a' color={color_alerte} attached="top left">{props.alerte}</Label> :
                     null
@@ -23,3 +23,4 @@ const Carte = (props) => {
 }
 
 export default Carte;
+

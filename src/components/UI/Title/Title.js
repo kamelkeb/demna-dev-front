@@ -6,7 +6,7 @@ import { Header } from 'semantic-ui-react'
 
 const Title = (props) => {
     return (
-        <Header sub>{props.titreSection}</Header>
+        <Header sub>{props.children}</Header>
     )
 }
 
