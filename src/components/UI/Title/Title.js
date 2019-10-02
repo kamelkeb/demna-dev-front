@@ -1,11 +1,13 @@
 import React from 'react';
-import classes from './Field.module.css'
+import classes from './Title.module.css'
+
+import { Header } from 'semantic-ui-react'
 
 
 const Title = (props) => {
     return (
-            <p>Title</p>
-            )
+        <Header sub>{props.titreSection}</Header>
+    )
 }
 
 
