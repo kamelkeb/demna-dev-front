@@ -1,13 +1,13 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
 
-import * as client_routes from './routes/client_routes';
+// Les routes coté client
+import * as client_routes from './routes/client_routes'
 
-import Accueil from 'src/containers/Accueil/Accueil';
+// Composants internes à l'app
+import Acceuil from './containers/Accueil/Accueil'
+import Layout from './hoc/Layout/Layout'
 
-
-
-export const language="fr"
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Layout>
         <Switch> 
           
-          <Route path={client_routes.pathHome} exact component={Accueil} />
+          <Route path={client_routes.pathHome} exact component={Acceuil} />
         </Switch>
         
       </Layout>
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
