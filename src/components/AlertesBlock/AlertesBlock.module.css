@@ -1,4 +1,14 @@
-.AlertesBlock {
+.AlertesCarousel {
     display: flex;
     flex-direction: row;
+    height: 10wh;
+
+    
+}
+.AlertesBlock {
+    display: flex;
+    flex-direction: column;
+
+    
+    
 }

@@ -8,7 +8,7 @@ import ConnexionBlock from '../../components/ConnexionBlock/ConnexionBlock'
 
 class Accueil extends React.Component {
     render() {
-        return (<>
+        return (<div>
             
                 <AlertesBlock alertes={this.props.alertes} labelValue={this.props.alertesBlockLabelValue}/>
                 <ConnexionBlock labelValue={this.props.connexionBlockLabelValue}
@@ -18,7 +18,7 @@ class Accueil extends React.Component {
                     signUpButtonName={this.props.signUpButtonName}
                  />
 
-                </>
+                </div>
             
         );
     }

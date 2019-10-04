@@ -10,9 +10,12 @@ import Title from '../UI/Title/Title'
 
 const AlertesBlock = (props) => {
 
-    return (<div className={classes.AlertesBlock}>
-            <Title>{props.labelValue}</Title>
-            <Carousel items={props.alertes}/>
+    return (
+            <div className={classes.AlertesBlock}>
+                <Title>{props.labelValue}</Title>
+                <div className={classes.AlertesCarousel}>
+                    <Carousel items={props.alertes}/>
+                </div>
             </div>
             )
 }

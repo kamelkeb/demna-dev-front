@@ -11,14 +11,16 @@ const Carte = (props) => {
                     <Label as='a' color={color_alerte} attached="top left">{props.alerte}</Label> :
                     null
     return (
-        <Card >
-            <Card.Content>
-                <Card.Header>{props.titre}</Card.Header>
-                <Card.Meta>{props.appelant}</Card.Meta>
-                {props.datefin}
-            </Card.Content>
-            {label}
-        </Card>
+        <div className={classes.Carte}>
+            <Card>
+                <Card.Content>
+                    <Card.Header>{props.titre}</Card.Header>
+                    <Card.Meta>{props.appelant}</Card.Meta>
+                    {props.datefin}
+                </Card.Content>
+                {label}
+            </Card>
+        </div>
     );
 }
 

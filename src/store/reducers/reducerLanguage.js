@@ -3,10 +3,11 @@ import allTextForLanguage from '../../allTextForLanguage'
 
 
 const defaultLanguage = "fr"
+const defaultText = allTextForLanguage(defaultLanguage)
 
 const initialState = {
     language: defaultLanguage,
-    text: allTextForLanguage(defaultLanguage)
+    text: defaultText
 }
 
 const reducerLanguage = ( state = initialState, action ) => {
