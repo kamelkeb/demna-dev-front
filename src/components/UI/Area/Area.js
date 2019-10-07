@@ -1,11 +1,22 @@
 import React from 'react';
-import classes from './Field.module.css'
+
+import classes from './Area.module.css'
 
 
 const Area = (props) => {
     return (
-            <p>Area</p>
-            )
+        <textarea
+            rows="3"
+            className={classes.TextArea}
+            name={props.name}
+            placeholder={props.placeholder}
+            onChange={props.handleOnChange}
+            onBlur={props.handleOnBlur}
+            onFocus={props.handleOnFocus}
+        >
+            {props.value}
+        </textarea>
+    )
 }
 
 

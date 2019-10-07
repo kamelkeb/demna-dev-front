@@ -1,11 +1,11 @@
 import React from 'react';
-import classes from './Button.module.css'
+
+import classes from './ButtonOutline.module.css';
 
 import { Icon } from 'semantic-ui-react'
 
-
-const Button = (props) => {
-    const allClasses = [classes.Button, "button"].join(' ')
+const ButtonOutline = (props) => {
+    const allClasses = [classes.ButtonOutline, "button-outline"].join(' ')
     const icone = props.depot ? <Icon name='plus square outline' /> : undefined
     return (
         <button
@@ -13,8 +13,7 @@ const Button = (props) => {
         >
             {icone} {props.children}
         </button>
-    )
+    );
 }
 
-
-export default Button
+export default ButtonOutline;

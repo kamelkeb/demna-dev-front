@@ -1,11 +1,15 @@
 import React from 'react';
-import classes from './Field.module.css'
+import classes from './Seperator.module.css'
 
 
 const Seperator = (props) => {
     return (
-            <p>Seperator</p>
-            )
+        <div className={classes.DivSeparator} >
+            <span className={classes.Span} >
+                {props.children}
+            </span>
+        </div>
+    )
 }
 
 

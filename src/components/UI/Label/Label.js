@@ -5,11 +5,14 @@ import classes from './Label.module.css';
 
 
 const Label = (props) => {
-
     return (
-            <div className="Label">{props.value}</div>
-
-            )
+        <label
+            for={props.for}
+            className={classes.Label}
+        >
+            {props.children}
+        </label>
+    )
 }
 
 

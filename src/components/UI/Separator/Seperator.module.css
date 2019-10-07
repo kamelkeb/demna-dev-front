@@ -1,0 +1,33 @@
+.DivSeparator {
+    text-align: center;
+    position: relative;
+}
+
+.Span {
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    color: #D3D3D3;
+}
+  
+.Span:before,
+.Span:after {
+    background-color: #d1d1d1;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+    margin: 2rem 0;
+}
+  
+.Span:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.Span:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
