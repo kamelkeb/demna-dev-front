@@ -16,6 +16,7 @@ class Accueil extends React.Component {
                     passwordFieldPlaceHolder={this.props.passwordFieldPlaceHolder}
                     loginButtonName={this.props.loginButtonName}
                     signUpButtonName={this.props.signUpButtonName}
+                    forgottenPasswordButtonName={this.props.forgottenPasswordButtonName}
                  />
 
                 </div>
@@ -32,7 +33,8 @@ const mapStateToProps = state => {
         emailFieldPlaceHolder: state.language.text.EMAIL_FIELD_PLACE_HOLDER,
         passwordFieldPlaceHolder: state.language.text.PASSWORD_FIELD_PLACE_HOLDER,
         loginButtonName: state.language.text.LOGIN_BUTTON_NAME,
-        signUpButtonName: state.language.text.SIGN_UP_BUTTON_NAME
+        signUpButtonName: state.language.text.SIGN_UP_BUTTON_NAME,
+        forgottenPasswordButtonName: state.language.text.FORGOTTEN_PWD_BUTTON_NAME
     }
 }
 

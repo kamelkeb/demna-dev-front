@@ -5,4 +5,5 @@ export const EMAIL_FIELD_PLACE_HOLDER ="email"
 export const PASSWORD_FIELD_PLACE_HOLDER ="mot de passe"
 export const LOGIN_BUTTON_NAME ="Se connecter"
 export const SIGN_UP_BUTTON_NAME ="S'inscrire"
+export const FORGOTTEN_PWD_BUTTON_NAME ="Mot de passe oublié ?"
 
